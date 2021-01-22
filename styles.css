@@ -2,3 +2,15 @@
     background-color: black;
     color: white;
 }
+
+h3.explanation{
+    color: rgb(255,100,100)
+}
+
+aside.explanation{
+    background-color:  hsl(0,50%,75%);
+    color: #050
+}
+
+
+
