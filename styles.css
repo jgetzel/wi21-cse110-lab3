@@ -1,4 +1,12 @@
-
+body {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 10px solid wheat;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+}
 
 /*Element selector and border*/
 h1{
@@ -13,6 +21,11 @@ h1{
 .explanation {
     background-color: black;
     color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
 }
 
 h3.explanation{
@@ -21,7 +34,9 @@ h3.explanation{
 
 aside.explanation{
     background-color:  hsl(0,50%,75%);
-    color: #050
+    color: #050;
+    margin: 20px 20px 20px 20px;
+    
 }
 
 /*Changing properties of the form section*/
@@ -33,4 +48,9 @@ aside.explanation{
     text-decoration:underline;
 }
 
+/*Pseudo class selector*/
+.hotmail:hover {
+    background-color: black;
+    color: red;
+}
 
