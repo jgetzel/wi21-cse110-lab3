@@ -6,6 +6,7 @@ h1{
     border-color: wheat;
     border-width: thick;
     border-radius: 50px;
+    text-align: center;
 }
 
 /* changing colors of the explanation section*/
@@ -28,5 +29,8 @@ aside.explanation{
     background-color: tomato;
 }
 
+[class~="hotmail"] {
+    text-decoration:underline;
+}
 
 
