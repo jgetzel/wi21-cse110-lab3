@@ -1,4 +1,9 @@
-/*Element selector*/
+/*Universal Selector and Font */
+* {
+    font-family: 'Maven Pro', Helvetica, Oswald;
+}
+
+/*Element selector and border*/
 h1{
     border-style: solid;
     border-color: wheat;
