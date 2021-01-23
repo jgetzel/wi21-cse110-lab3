@@ -1,3 +1,4 @@
+/* changing colors of the explanation section*/
 .explanation {
     background-color: black;
     color: white;
@@ -10,6 +11,11 @@ h3.explanation{
 aside.explanation{
     background-color:  hsl(0,50%,75%);
     color: #050
+}
+
+/*Changing properties of the form section*/
+#song {
+    background-color: tomato;
 }
 
 
