@@ -99,3 +99,11 @@ option:first-of-type + option {
 
 footer {position: absolute;}
 
+form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
