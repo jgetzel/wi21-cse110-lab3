@@ -15,6 +15,9 @@ h1{
     border-width: thick;
     border-radius: 50px;
     text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 /* changing colors of the explanation section*/
@@ -93,4 +96,6 @@ option:first-of-type + option {
     background-color: black;
     color: red;
 }
+
+footer {position: absolute;}
 
