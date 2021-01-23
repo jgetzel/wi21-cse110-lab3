@@ -29,19 +29,23 @@ h1{
 }
 
 h3.explanation{
-    color: rgb(255,100,100)
+    color: rgb(255,100,100);
 }
 
 aside.explanation{
     background-color:  hsl(0,50%,75%);
     color: #050;
     margin: 20px 20px 20px 20px;
+    max-width: 50%;
     
 }
 
 /*Changing properties of the form section*/
 #song {
     background-color: tomato;
+}
+#comments {
+    min-width: 70%;
 }
 
 [class~="hotmail"] {
@@ -65,4 +69,11 @@ button:active{
       color: wheat;
     }
   }
+
+.main-links{
+    display: inline;
+}
+.secret {
+    display: none;
+}
 
