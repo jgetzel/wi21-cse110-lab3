@@ -58,7 +58,7 @@ aside.explanation{
     color: red;
 }
 
-button:active{
+button:active,input:active{
     color: red;
     background-color: black;
 }
@@ -75,5 +75,22 @@ button:active{
 }
 .secret {
     display: none;
+}
+
+div.explanation p {
+    color: wheat;
+}
+
+ul > li {
+    margin-left: 50px;
+}
+
+audio ~ p {
+    color: brown;
+}
+
+option:first-of-type + option {
+    background-color: black;
+    color: red;
 }
 
